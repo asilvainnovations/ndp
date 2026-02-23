@@ -1,14 +1,4 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Suspense, lazy, useState, useEffect } from "react";
-import { ErrorBoundary } from "react-error-boundary";
-
-/* ========================================
-   📁 CSS IMPORTS (Design System)
-   ======================================== */
-import "./styles/index.css";
-import "./styles/font.css";
-import "./styles/tailwind.css";
-import "./styles/theme.css";
 
 /* ========================================
    🧩 LAZY LOADED COMPONENTS

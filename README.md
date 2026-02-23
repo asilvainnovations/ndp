@@ -1,7 +1,7 @@
 
-  # DDRiVE-M
+  # DDRiVE-M National Disaster Preparedness Version
 
-  This is a code bundle for DDRiVE-M. The original project is available at https://www.figma.com/design/Fy0MgMarwQ3DJjRjzYV566/DDRiVE-M.
+  This is a code bundle for DDRiVE-M NDP version. The original project is available at https://www.figma.com/design/Fy0MgMarwQ3DJjRjzYV566/DDRiVE-M.
 
   ## Running the code
 

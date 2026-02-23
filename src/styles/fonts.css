@@ -1,1 +1,79 @@
+/* ========================================
+   🔤 FONTS & TYPOGRAPHY
+   ======================================== */
 
+/* 
+   Import Google Fonts:
+   - Poppins: Geometric sans-serif, excellent for UI and Headings.
+   - Roboto Condensed: Compact sans-serif, excellent for data, sidebars, and body text.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;500;700&display=swap');
+
+:root {
+  /* Font Family Variables */
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto Condensed', sans-serif;
+  
+  /* Font Weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+}
+
+/* 
+   Global Typography Reset 
+   Applying Poppins as the base UI font for a clean, modern look.
+*/
+body {
+  font-family: var(--font-primary);
+  font-weight: var(--font-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 
+   Headings 
+   Using Roboto Condensed for headings creates a strong, technical hierarchy 
+   that contrasts well with the softer Poppins body text.
+*/
+h1, h2, h3, h4, h5, h6, 
+.heading-condensed {
+  font-family: var(--font-secondary);
+  font-weight: var(--font-bold);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* 
+   Utility Classes 
+*/
+.font-primary {
+  font-family: var(--font-primary) !important;
+}
+
+.font-secondary {
+  font-family: var(--font-secondary) !important;
+}
+
+.font-mono {
+  /* Fallback monospace if specific code font isn't loaded elsewhere */
+  font-family: 'JetBrains Mono', 'Fira Code', monospace; 
+}
+
+/* 
+   Specific Element Styling 
+*/
+code, kbd, pre {
+  font-family: var(--font-secondary); /* Condensed works well for code blocks */
+  font-size: 0.9em;
+}
+
+button, .btn {
+  font-family: var(--font-primary);
+  font-weight: var(--font-medium);
+  letter-spacing: 0.02em;
+}
